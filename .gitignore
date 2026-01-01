@@ -1,24 +1,44 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Saved models
+saved_models/*.h5
+saved_models/*.keras
+
+# Uploaded images (optional - uncomment if you don't want to track uploads)
+# uploads/*
+# !uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# TensorFlow
+*.pb
+*.pbtxt
+checkpoint
+*.ckpt*
+*.index
+*.meta
